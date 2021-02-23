@@ -1,4 +1,15 @@
 .page-container {
+    padding: 1em 5em 1em;
     display: grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 20% 40% 40%;
+    grid-column-gap: 1.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.heading > h1 {
+    line-height: 0; /* to align heading with middle row image */ 
 }
