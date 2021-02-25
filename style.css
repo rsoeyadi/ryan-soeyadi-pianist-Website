@@ -1,8 +1,31 @@
 .page-container {
-  padding: 1em 5em 1em;
+  padding: 1em 3em 1em;
   display: grid;
   grid-template-columns: 20% 40% 40%;
   grid-column-gap: 1.5em;
+}
+
+#ryan-soeyadi {
+  font-family: "Great Vibes", cursive;
+  font-size: 82px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.icons ul {
+  display: grid;
+  grid-template-columns: 40px 40px;
+}
+
+.icons li {
+  font-size: 32px;
 }
 
 img {
