@@ -1,5 +1,6 @@
 .page-container {
-  padding: 1em 3em 1em;
+  width: auto;
+  padding: 1em 2em 3em 1em;
   display: grid;
   grid-template-columns: 20% 40% 40%;
   grid-column-gap: 1.5em;
@@ -26,6 +27,11 @@ ul {
 
 .icons li {
   font-size: 32px;
+}
+
+.nav-bar li {
+  margin: 12px 0;
+  font-size: 18px;
 }
 
 img {
