@@ -1,14 +1,15 @@
 .page-container {
   width: auto;
-  padding: 1em 2em 3em 1em;
+  padding: 1em 3em 3em 1em;
   display: grid;
-  grid-template-columns: 20% 40% 40%;
-  grid-column-gap: 1.5em;
+  grid-template-columns: 15% 45% 40%;
+  grid-column-gap: 1.2em;
 }
 
-#ryan-soeyadi {
+#ryan-soeyadi h1 {
   font-family: "Great Vibes", cursive;
-  font-size: 82px;
+  font-size: 4vw;
+  margin: 0;
 }
 
 a {
@@ -31,7 +32,7 @@ ul {
 
 .nav-bar li {
   margin: 12px 0;
-  font-size: 18px;
+  font-size: 1.5vw;
 }
 
 img {
@@ -42,6 +43,12 @@ img {
 .heading > h1 {
   line-height: 0;
   /* to align heading with middle row image */
+}
+
+@media screen and (min-width: 1600px) {
+  .nav-bar li {
+    font-size: 1vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
