@@ -12,12 +12,17 @@ body {
 
 #ryan-soeyadi h1 {
   font-family: "Great Vibes", cursive;
-  font-size: 4vw;
+  font-size: 4.3vw;
   margin: 0;
 }
 
 a {
+  color: black;
   text-decoration: none;
+}
+
+a:visited {
+  color: black;
 }
 
 ul {
@@ -49,7 +54,19 @@ img {
   /* to align heading with middle row image */
 }
 
-@media screen and (min-width: 1600px) {
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
   .nav-bar li {
     font-size: 1vw;
   }
