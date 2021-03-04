@@ -206,7 +206,7 @@ img {
     grid-column-gap: 1vw;
   }
 
-  .nav-bar {
+  .display-none {
     display: none;
   }
 
