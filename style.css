@@ -198,12 +198,16 @@ img {
   .hamburger {
     display: block;
     position: absolute;
-    top: 1.5em;
+    top: 1.9em;
     right: 0;
   }
 
   .icons ul {
     grid-column-gap: 1vw;
+  }
+
+  .nav-bar li {
+    font-size: 1.1em;
   }
 
   .display-none {
