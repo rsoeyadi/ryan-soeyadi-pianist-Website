@@ -166,6 +166,10 @@ img {
   /* to align heading with middle row image */
 }
 
+.copyright-desktop, .copyright-mobile {
+  font-size: 0.8em;
+}
+
 .copyright-mobile {
   display: none;
 }
