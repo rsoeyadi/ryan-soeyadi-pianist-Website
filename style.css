@@ -230,7 +230,7 @@ img {
 
   .mobile-footer {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   .mobile-icons {
@@ -242,6 +242,7 @@ img {
     display: block;
     text-align: center;
     bottom: 0;
+    grid-row: 3/4;
   }
 }
 @media (max-height: 375px) {
