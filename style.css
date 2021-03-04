@@ -166,6 +166,10 @@ img {
   /* to align heading with middle row image */
 }
 
+.copyright-mobile {
+  display: none;
+}
+
 @media (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 }
@@ -218,6 +222,16 @@ img {
     font-size: 7vw;
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+
+  .copyright-desktop {
+    display: none;
+  }
+
+  .copyright-mobile {
+    display: block;
+    text-align: center;
+    bottom: 0;
   }
 }
 @media (min-width: 1025px) {
