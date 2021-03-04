@@ -142,13 +142,17 @@ ul {
   list-style: none;
 }
 
-.icons ul {
+.desktop-icons ul, .mobile-icons ul {
   display: grid;
   grid-template-columns: 40px 40px;
 }
 
-.icons li {
+.desktop-icons li, .mobile-icons li {
   font-size: 32px;
+}
+
+.mobile-icons {
+  display: none;
 }
 
 .nav-bar li {
@@ -192,17 +196,18 @@ img {
   #ryan-soeyadi h1 {
     font-size: 10vw;
     margin-top: 0.5em;
+    padding-bottom: 0.3em;
   }
 
   .hamburger {
     display: block;
     position: absolute;
-    top: 1.8em;
+    top: 1em;
     right: 0;
   }
 
-  .icons ul {
-    grid-column-gap: 1vw;
+  .desktop-icons ul {
+    display: none;
   }
 
   .nav-bar li {
@@ -223,6 +228,16 @@ img {
     display: none;
   }
 
+  .mobile-footer {
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+
+  .mobile-icons {
+    display: block;
+    justify-self: center;
+  }
+
   .copyright-mobile {
     display: block;
     text-align: center;
@@ -231,7 +246,7 @@ img {
 }
 @media (max-height: 375px) {
   .copyright-desktop {
-    font-size: 0.5em;
+    font-size: 0.4em;
   }
 }
 @media (min-width: 1281px) {
