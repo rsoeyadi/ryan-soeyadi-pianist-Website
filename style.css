@@ -256,5 +256,10 @@ img {
     font-size: 1vw;
   }
 }
+@media (max-width: 320px) {
+  .hamburger {
+    top: 0.1em;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
