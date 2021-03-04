@@ -181,7 +181,7 @@ img {
 @media (max-width: 768px) {
   .page-container {
     width: auto;
-    padding: 1em 1em 3em 1em;
+    padding: 1em 1em 0 1em;
     display: grid;
     grid-template-columns: 100%;
     grid-column-gap: 1.2em;
