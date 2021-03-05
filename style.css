@@ -157,7 +157,6 @@ hr {
 }
 
 h1, h2 {
-  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -213,6 +212,12 @@ p {
 
 .collab-video, .event-description {
   margin-top: 1.5em;
+}
+
+#gallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .desktop-icons ul, .mobile-icons ul {
@@ -294,6 +299,10 @@ img {
 
   .event-wrapper img {
     width: 50%;
+  }
+
+  #gallery {
+    grid-template-columns: 1fr;
   }
 
   #ryan-soeyadi h1 {
