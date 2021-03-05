@@ -150,6 +150,11 @@ ul {
   list-style: none;
 }
 
+hr {
+  width: 70%;
+  margin: 0;
+}
+
 #concerts-list {
   display: grid;
   grid-row-gap: 2em;
@@ -219,6 +224,15 @@ img {
     top: 0;
     position: sticky;
     background-color: white;
+  }
+
+  .event-wrapper {
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.5em;
+  }
+
+  .event-wrapper img {
+    width: 50%;
   }
 
   #ryan-soeyadi h1 {
