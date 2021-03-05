@@ -141,7 +141,8 @@ a:visited {
   color: black;
 }
 
-.link a {
+.event a {
+  z-index: 2;
   color: blue;
 }
 
