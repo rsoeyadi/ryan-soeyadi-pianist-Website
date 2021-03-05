@@ -139,7 +139,12 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 19px;
+}
+
+#about-title {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 p {
@@ -179,6 +184,11 @@ p {
 .event-date, .event-location {
     margin: 0;
     padding: 0;
+}
+
+.logistics {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .collab-video, .event-description {
@@ -321,7 +331,7 @@ img {
     
  }
 
-@media (max-height: 375px) {
+@media (max-height: 359px) {
     
     .page-container {
         grid-column-gap: 1.5em;
@@ -352,7 +362,16 @@ img {
  }
     @media (max-height: 320px) and (orientation: landscape) {
         h1 {
+            font-size: 28px;
             margin-bottom: 1em;
+        }
+
+        
+        #about-title h1{
+            margin-bottom: 1em;
+        }
+        #collab-title {
+            margin-bottom: -0.5em;
         }
         .nav-bar li {
             font-size: 0.6em;
