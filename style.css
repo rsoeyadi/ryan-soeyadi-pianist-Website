@@ -161,6 +161,10 @@ h1, h2 {
   margin-bottom: 0;
 }
 
+h2 {
+  font-size: 18px;
+}
+
 .video iframe {
   margin-bottom: 2em;
   position: absolute;
