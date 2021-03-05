@@ -162,7 +162,7 @@ h1, h2 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .video iframe {
@@ -333,8 +333,12 @@ img {
   }
 }
 @media (max-height: 375px) {
+  .page-container {
+    grid-column-gap: 5em;
+  }
+
   .nav-bar li {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .copyright-desktop {
