@@ -122,6 +122,10 @@ body {
   grid-column-gap: 1.2em;
 }
 
+.two-columns {
+  grid-template-columns: 15% 60%;
+}
+
 #ryan-soeyadi h1 {
   font-family: "Great Vibes", cursive;
   font-size: 4.3vw;
@@ -137,9 +141,33 @@ a:visited {
   color: black;
 }
 
+.link a {
+  color: blue;
+}
+
 ul {
   padding-inline-start: 0;
   list-style: none;
+}
+
+#concerts-list {
+  display: grid;
+  grid-row-gap: 2em;
+}
+
+.event-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1.5em;
+}
+
+.event-date, .event-location {
+  margin: 0;
+  padding: 0;
+}
+
+.event-description {
+  margin-top: 1.5em;
 }
 
 .desktop-icons ul, .mobile-icons ul {
