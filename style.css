@@ -333,7 +333,7 @@ img {
   }
 }
 @media (max-height: 375px) {
-  .page-container {
+  .extra-gap {
     grid-column-gap: 5em;
   }
 
