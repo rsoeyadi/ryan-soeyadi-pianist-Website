@@ -236,6 +236,10 @@ img {
     grid-column-gap: 1.2em;
   }
 
+  .two-columns {
+    margin-right: 0;
+  }
+
   .first-column {
     top: 0;
     position: sticky;
