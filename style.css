@@ -333,7 +333,11 @@ img {
   }
 }
 @media (max-height: 375px) {
-  .nav-bar .copyright-desktop {
+  .nav-bar li {
+    font-size: 1.2em;
+  }
+
+  .copyright-desktop {
     font-size: 0.4em;
   }
 }
