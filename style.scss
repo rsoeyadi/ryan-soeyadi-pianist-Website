@@ -1,15 +1,332 @@
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+ .hamburger {
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible; }
+    .hamburger:hover {
+      opacity: 0.7; }
+    .hamburger.is-active:hover {
+      opacity: 0.7; }
+    .hamburger.is-active .hamburger-inner,
+    .hamburger.is-active .hamburger-inner::before,
+    .hamburger.is-active .hamburger-inner::after {
+      background-color: #000; }
+  
+  .hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative; }
+  
+  .hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px; }
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+      width: 40px;
+      height: 4px;
+      background-color: #000;
+      border-radius: 4px;
+      position: absolute;
+      transition-property: transform;
+      transition-duration: 0.15s;
+      transition-timing-function: ease; }
+    .hamburger-inner::before, .hamburger-inner::after {
+      content: "";
+      display: block; }
+    .hamburger-inner::before {
+      top: -10px; }
+    .hamburger-inner::after {
+      bottom: -10px; }
+
+      /*
+   * Elastic
+   */
+.hamburger--elastic .hamburger-inner {
+    top: 2px;
+    transition-duration: 0.275s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+    .hamburger--elastic .hamburger-inner::before {
+      top: 10px;
+      transition: opacity 0.125s 0.275s ease; }
+    .hamburger--elastic .hamburger-inner::after {
+      top: 20px;
+      transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  
+  .hamburger--elastic.is-active .hamburger-inner {
+    transform: translate3d(0, 10px, 0) rotate(135deg);
+    transition-delay: 0.075s; }
+    .hamburger--elastic.is-active .hamburger-inner::before {
+      transition-delay: 0s;
+      opacity: 0; }
+    .hamburger--elastic.is-active .hamburger-inner::after {
+      transform: translate3d(0, -20px, 0) rotate(-270deg);
+      transition-delay: 0.075s; }
+
+.hamburger {
+    display: none;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 .page-container {
-    padding: 1em 5em 1em;
+    width: auto;
+    padding: 1em 3em 3em 1em;
     display: grid;
-    grid-template-columns: 20% 40% 40%;
+    grid-template-columns: 15% 45% 40%;
+    grid-column-gap: 1.2em;
+}
+
+.two-columns {
+    grid-template-columns: 15% 60%;
+}
+
+#ryan-soeyadi h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.3vw;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.link a{
+    color: blue;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style: none;
+    
+}
+
+hr {
+
+    width: 70%;
+    margin: 0;
+    
+   }
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video iframe {
+    margin-bottom: 2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; max-width: 850px;
+    height: 100%;
+    border: 0;
+}
+
+.video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 2em;
+}
+
+
+#concerts-list {
+    display: grid;
+    grid-row-gap: 2em;
+    
+ }
+
+.event-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 1.5em;
+}
+
+
+.event-date, .event-location {
+    margin: 0;
+    padding: 0;
+}
+
+.collab-video, .event-description {
+    margin-top: 1.5em;
+}
+
+.desktop-icons ul, .mobile-icons ul {
+    display: grid;
+    grid-template-columns: 40px 40px;
+}
+
+.desktop-icons li, .mobile-icons li {
+    font-size: 32px;   
+}
+
+.mobile-icons {
+    display: none;
+}
+
+.nav-bar li {
+    margin: 12px 0;
+    font-size: 1.5vw;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    box-shadow: 8px 11px 10px #aaa;
 }
 
 .heading > h1 {
     line-height: 0; /* to align heading with middle row image */ 
+}
+
+.copyright-desktop, .copyright-mobile {
+    font-size: 0.8em;
+}
+
+.copyright-desktop {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.copyright-mobile {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .two-columns {
+        grid-template-columns: 15% 90%;
+        margin-right: 2em;
+    } 
+}
+@media (max-width:768px)  {
+   
+    .page-container {
+        width: auto;
+        padding: 1em 1em 0 1em;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 1.2em;
+    }
+
+    .two-columns {
+        margin-right: 0;
+    }
+    .first-column {
+        z-index: 2;
+        top: 0;
+        position: sticky;
+        background-color: white;
+    }
+
+
+    .event-wrapper {
+        grid-template-columns: 1fr;
+        grid-column-gap: 1.5em;
+    }
+
+    .event-wrapper img {
+        width: 50%;
+    }
+    
+    #ryan-soeyadi h1 {
+        font-size: 10vw;
+        margin-top: 0.5em;
+        padding-bottom: 0.3em;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 1em;
+        right: 0;
+        
+    }
+    .desktop-icons ul {
+        display: none;
+        
+    }
+
+    
+
+    .nav-bar li {
+        font-size: 1.1em;
+    }
+    
+    .display-none {
+        display: none;
+    }
+
+    .heading > h1 {
+        font-size: 7vw;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .copyright-desktop {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .mobile-icons {
+        display: block;
+        justify-self: center;
+        grid-row: 2/3;
+        
+    }
+
+    .copyright-mobile {
+        display: block;
+        text-align: center;
+        bottom: 0;
+        grid-row: 3/4;
+    }
+    
+ }
+
+@media (max-height: 375px) {
+    .nav-bar
+    .copyright-desktop {
+        font-size: 0.4em;
+    }
+}
+@media (min-width:1281px) {
+
+    .nav-bar li {
+        font-size: 1.1vw;
+    }
+ }
+
+ @media (max-width: 320px) {
+    .hamburger {
+        top: 0.1em;
+    }
 }
