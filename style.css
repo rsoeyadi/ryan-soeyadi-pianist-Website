@@ -309,13 +309,13 @@ img {
   }
 }
 @media (max-height: 375px) {
-  .copyright-desktop {
+  .nav-bar .copyright-desktop {
     font-size: 0.4em;
   }
 }
 @media (min-width: 1281px) {
   .nav-bar li {
-    font-size: 1vw;
+    font-size: 1.1vw;
   }
 }
 @media (max-width: 320px) {
