@@ -220,6 +220,10 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+#gallery img {
+  box-shadow: 8px 11px 10px #fff;
+}
+
 .desktop-icons ul, .mobile-icons ul {
   display: grid;
   grid-template-columns: 40px 40px;
