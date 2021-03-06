@@ -59,10 +59,14 @@
               <div class="form">
                   <h1 style="font-size: 2em; font-weight: bold;">Contact Me</h1>
                   <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="text" name="subject" placeholder="Subject">
-                    <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <label for="full-name"></label>
+                    <input type="text" id="full-name" name="name" placeholder="Name">
+                    <label for="email-address"></label>
+                    <input type="email" id="email-address" name="email" placeholder="Email">
+                    <label for="message-subject"></label>
+                    <input type="text" id="message-subject" name="subject" placeholder="Subject">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                     <div style="text-align: center;">
                         <div
                             style="display: inline-block;"
