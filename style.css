@@ -215,6 +215,18 @@ p {
   margin-top: 1.5em;
 }
 
+.downloads {
+  color: blue;
+}
+
+.downloads:visited {
+  color: blue;
+}
+
+.downloads:hover {
+  text-decoration: underline;
+}
+
 #gallery {
   display: grid;
   grid-gap: 10px;

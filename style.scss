@@ -118,6 +118,7 @@ a:visited {
 
 .event a {
     z-index: 2;
+    font-size: 13px;
     color: blue;
 }
 
@@ -194,6 +195,17 @@ p {
     margin-top: 1.5em;
 }
 
+.downloads {
+    color: blue;
+}
+
+.downloads:visited {
+    color: blue;
+}
+
+.downloads:hover {
+    text-decoration: underline;
+}
 #gallery {
     display: grid;
     grid-gap: 10px;
@@ -201,6 +213,7 @@ p {
 }
 
 #gallery img {
+    box-shadow: 8px 11px 10px #fff;
     
 }
 
