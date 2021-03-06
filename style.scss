@@ -116,7 +116,6 @@ a:visited {
     color: black;
 }
 
-
 .event a {
     z-index: 2;
     font-size: 13px;
@@ -392,6 +391,13 @@ img:hover {
         background-color: white;
     }
 
+
+    #ryan-soeyadi:hover, .desktop-icons li:hover, .mobil-icons li:hover, .nav-bar li:hover, img:hover  {
+        transition: none;
+        transform: none;
+    }
+   
+    
 
     .event-wrapper {
         grid-template-columns: 1fr;
