@@ -266,6 +266,10 @@ img {
 	color: rgb(0, 0, 0);
 	margin: -16px -16px 16px -16px;
 }
+
+::placeholder {
+    color: black;
+}
 .form input[type="text"],
 .form input[type="date"],
 .form input[type="datetime"],
@@ -290,7 +294,7 @@ img {
 	margin-bottom: 4%;
 	border: 1px solid #ccc;
 	padding: 3%;
-	color: #555;
+	color: rgb(95, 95, 95);
 	font-family: 'Noto Sans JP', sans-serif;
 }
 .form input[type="text"]:focus,
