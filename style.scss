@@ -116,6 +116,7 @@ a:visited {
     color: black;
 }
 
+
 .event a {
     z-index: 2;
     font-size: 13px;
@@ -224,6 +225,7 @@ p {
 
 .desktop-icons li, .mobile-icons li {
     font-size: 32px;   
+    
 }
 
 .mobile-icons {
@@ -231,8 +233,24 @@ p {
 }
 
 .nav-bar li {
+    position: relative;
+    overflow: hidden;
     margin: 12px 0;
     font-size: 1.5vw;
+}
+
+#ryan-soeyadi:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.08);
+}
+.desktop-icons li:hover, .mobil-icons li:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.01);
+}
+
+.nav-bar li:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.02);
 }
 
 img {
@@ -241,6 +259,10 @@ img {
     box-shadow: 8px 11px 10px #aaa;
 }
 
+img:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.01);
+}
 #about-img {
     box-shadow: 8px 11px 10px #fff;
 
