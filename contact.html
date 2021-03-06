@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>RYAN SOEYADI | ABOUT</title>
+        <title>RYAN SOEYADI | CONTACT</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="page-container">
+        <div class="page-container two-columns extra-gap">
 
             <div class="first-column">
                 <div id="ryan-soeyadi"><h1><a href="index.html">Ryan Soeyadi</a></h1></div>
@@ -40,7 +40,7 @@
                         <li><a href="collaborative.html">COLLABORATIVE</a></li>
                         <li><a href="gallery.html">PHOTOS</a></li>
                         <li><a href="arrangements.html">ARRANGEMENTS</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="">CONTACT</a></li>
                     </ul>
                 </div>
 
@@ -54,21 +54,33 @@
                 
             </div>
 
+            
             <div class="mid-column">
-                <img id="about-img" src="./img/about-headshot.jpeg" loading="lazy" alt="Ryan Soeyadi Headshot">
-            </div>
-    
-            <div class="end-column">
-                <div class="heading"><h1 id="about-title">About Me</h1></div>
-                <div class="paragraphs">
-                    <p>Pianist Ryan Soeyadi is first prize winner of the 2018 Kosciuzko Foundation Chopin Competition in Washington D.C. and a sought-after pianist based in New York City. Ryan has appeared on stage in Alice Tully Hall at Lincoln Center for the Performing Arts, Steinway Hall in New York City, The Arkell Pavilion at The Southern Vermont Arts Center, Avram Theater in Southampton, NY, among other prestigious venues. Ryan was the grand prize winner of the 2020 and 2018 Music for Humanity scholarships, and has won top prizes at competitions such as the 2018 Steinway and Sons Piano Competition in New York City, the Stony Brook International Piano Competition, and the Mieczyslaw Munz Competition at Juilliard.
-                    </p>
-                    <p>Most recently, Ryan received piano fellowships to the Manchester Music Festival, Pianofest in the Hamptons, and the Kneisel Hall Chamber Music Festival. Prior to attending these distinguished festivals, Ryan has attended the Stony Brook International Piano Festival over the course of five continuous summers, where he studied with Dr. Jose Ramon Mendez and Dr. Amy Gustafson. He has performed in masterclasses with world-class faculty such as Stephen Hough, Matti Raekallio, and Adam Neiman.
-                    </p>
-                    <p>
-                    Ryan is currently pursuing his Bachelor of Music degree at The Juilliard School under the tutelage of Julian Martin. Ryan’s notable scholarships and awards include the Constance Keene Scholarship, the Ralph Zola Memorial Scholarship, and the Rosetta Goodkind Memorial Scholarship. Prior to his studies at The Juilliard School, Ryan attended the Manhattan School of Music Precollege Division under the tutelage of Dr. Adam Kent for seven years.
-                    </p>
-                </div>
+              <div class="form">
+                  <h1 style="font-size: 2em; font-weight: bold;">Contact Me</h1>
+                  <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div data-netlify-recaptcha="true"></div>
+                    <input type="submit" value="Send">
+                  </form>
+              </div>
+
+
+              <div class="copyright-desktop">
+                <p>©2021 Ryan Soeyadi</p>
+            </div> 
+     
+               
+         
+
+           
+
+
+
+
+            
             </div>
 
 
@@ -92,9 +104,7 @@
 
         </div>
 
-        <div class="copyright-desktop">
-            <p>©2021 Ryan Soeyadi</p>
-        </div> 
+       
 
         <script src="burger.js"></script>
     </body>
