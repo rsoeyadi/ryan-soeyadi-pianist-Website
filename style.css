@@ -259,7 +259,7 @@ p {
 
 #ryan-soeyadi:hover {
   transition: all 0.2s ease-in-out;
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .desktop-icons li:hover, .mobil-icons li:hover {
@@ -411,6 +411,11 @@ img:hover {
     top: 0;
     position: sticky;
     background-color: white;
+  }
+
+  #ryan-soeyadi:hover, .desktop-icons li:hover, .mobil-icons li:hover, .nav-bar li:hover, img:hover {
+    transition: none;
+    transform: none;
   }
 
   .event-wrapper {
