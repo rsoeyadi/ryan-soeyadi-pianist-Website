@@ -143,6 +143,7 @@ a:visited {
 
 .event a {
   z-index: 2;
+  font-size: 13px;
   color: blue;
 }
 
