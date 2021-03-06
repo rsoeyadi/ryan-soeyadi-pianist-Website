@@ -251,8 +251,25 @@ p {
 }
 
 .nav-bar li {
+  position: relative;
+  overflow: hidden;
   margin: 12px 0;
   font-size: 1.5vw;
+}
+
+#ryan-soeyadi:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.desktop-icons li:hover, .mobil-icons li:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.01);
+}
+
+.nav-bar li:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
 }
 
 img {
