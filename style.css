@@ -374,6 +374,10 @@ img:hover {
   background: #ffffff;
 }
 
+textarea {
+  resize: vertical;
+}
+
 .copyright-desktop, .copyright-mobile {
   font-size: 0.8em;
 }
