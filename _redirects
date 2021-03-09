@@ -1,7 +1,0 @@
-# for root
-/index.html              /index.html           200
-# for the rest
-/concerts        /concerts.html     200
-/collaborative/*  /collaborative.html 200
-/arrangements/*  /arrangements.html   200
-/contact/*      /contact.html         200
