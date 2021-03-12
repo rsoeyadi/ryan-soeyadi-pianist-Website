@@ -223,7 +223,7 @@ p {
   color: blue;
 }
 
-.downloads:hover {
+.downloads:hover, .purchases:hover {
   text-decoration: underline;
 }
 
