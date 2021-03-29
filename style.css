@@ -564,6 +564,10 @@ textarea {
   }
 }
 @media (max-height: 320px) and (orientation: landscape) {
+  .modal-content {
+    margin-bottom: 100px;
+  }
+
   h1 {
     font-size: 28px;
     margin-bottom: 1em;
