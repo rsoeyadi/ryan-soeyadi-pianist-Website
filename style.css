@@ -12,7 +12,7 @@
   /*added property */
 }
 
-.content {
+.modal-content {
   width: 50%;
   border: none;
   background-color: #fbfdfe;
@@ -440,7 +440,7 @@ textarea {
   }
 }
 @media (max-width: 768px) and (orientation: portrait) {
-  .content {
+  .modal-content {
     width: 80%;
   }
 
