@@ -8,7 +8,7 @@ $(document).ready(function ()
     //then the modal will be set true in the current session due to which the modal won't 
     //reappear on the refresh, we need to reload the page in a new tab to make the modal 
     //reappear.
-    sessionStorage.setItem('#ad_modal','true');
+    sessionStorage.setItem('#modal','true');
         }
     //select the close by class and apply a click even listener
   $(".close").on("click", function () 
