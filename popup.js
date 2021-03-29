@@ -12,13 +12,3 @@ $(document).ready(function ()
   
 });
 
-//this code snippet will check if the modal is present or not at the first session / loading
-//of the page, and if not then the display property of the modal will be set to block
-//and the modal shall appear
-if(sessionStorage.getItem('#modal') !== 'true'){
-    $('#modal').css('display','block');
-//then the modal will be set true in the current session due to which the modal won't 
-//reappear on the refresh, we need to reload the page in a new tab to make the modal 
-//reappear.
-sessionStorage.setItem('#ad_modal','true');
-	}
