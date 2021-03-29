@@ -36,6 +36,7 @@
 .close:focus,
 .close:hover {
   color: #000;
+  transition: all 0.3 0.2s ease-in-out;
   text-decoration: none;
   cursor: pointer;
 }
