@@ -584,6 +584,7 @@ textarea {
 
   .nav-bar li {
     font-size: 0.6em;
+    overflow: visible;
   }
 
   .event-wrapper:first-of-type {
