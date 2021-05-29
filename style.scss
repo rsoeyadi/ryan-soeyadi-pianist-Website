@@ -9,7 +9,7 @@
 	height: 100%;
 	overflow: auto;
 	background-color: rgba(0, 0, 0, .4);
-    display: none;   /*added property */
+    display: none;   /* added property */
 }
 //for the content inside the modal 
 .modal-content {
@@ -36,6 +36,7 @@
 .close:focus,
 .close:hover {
 	color: #000;
+    transition: all .3.2s ease-in-out;
 	text-decoration: none;
 	cursor: pointer
 }
@@ -176,7 +177,7 @@ hr {
 
     width: 70%;
     margin: 0;
-    
+   
    }
 
 h1, h2 {
@@ -212,7 +213,7 @@ p {
 }
 
 
-#concerts-list {
+#concerts-list, .upcoming-concerts, .past-concerts{
     display: grid;
     grid-row-gap: 1.5em;
     
@@ -420,8 +421,10 @@ textarea {
 @media (max-width:768px) and (orientation: portrait) {
    
     .modal-content {
-        width: 80%;
+        margin-bottom: 100px;
+        width: 75%;
     }
+
     .page-container {
         width: auto;
         padding: 1em 1em 0 1em;
@@ -549,7 +552,16 @@ textarea {
         top: 0.1em;
     }
  }
+
+    @media (orientation: landscape) {
+        .modal-content {
+            margin-bottom: 120px;
+        }
+    }
     @media (max-height: 320px) and (orientation: landscape) {
+
+       
+
         h1 {
             font-size: 28px;
             margin-bottom: 1em;

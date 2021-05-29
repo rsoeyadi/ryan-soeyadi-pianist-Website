@@ -233,7 +233,7 @@ p {
   margin-bottom: 2em;
 }
 
-#concerts-list {
+#concerts-list, .upcoming-concerts, .past-concerts {
   display: grid;
   grid-row-gap: 1.5em;
 }
