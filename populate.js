@@ -7,7 +7,8 @@ const upcomingConcerts = [
         link: "https://www.musae.me/musicforhumanity/experiences/975/music-for?fbclid=IwAR0mXE-QBJRGA-HBZnIAFZc5Gp0mXBSZDO7vPctMQe1PadqmHQDqh8WugfM",
         description: "I will be exploring the music of Nikolai Medtner through two piano sonatas, Op. 30 (his so-called \"War\" sonata) and the \"Minacciosa\" (which Medtner himself called his ‘most contemporary composition’) and a few of his smaller works titled \"skazki\", or tales in Russian. Additional smaller works by Rachmaninoff, one of his closest friends and admirers.",
         image: "./img/concerts-img/event-img-011.jpg",
-    }
+    },
+    
 ]
 
 const pastConcerts = [
@@ -17,7 +18,7 @@ const pastConcerts = [
         date: "April 18, 2021, 7:00 PM EST",
         location: "Online",
         link: "https://www.musae.me/musicforhumanity/experiences/975/music-for?fbclid=IwAR0mXE-QBJRGA-HBZnIAFZc5Gp0mXBSZDO7vPctMQe1PadqmHQDqh8WugfM",
-        description: "Maxfield Panish & Ryan Soeyadi present a benefit concert to raise funds for Music for Humanity (MFH), a non-profit that spreads music through the world with events and scholarships. Works by Johannes Brahms, Clara Schumann, and more."
+        description: "Maxfield Panish & Ryan Soeyadi present a benefit concert to raise funds for Music for Humanity (MFH), a non-profit that spreads music through the world with events and scholarships. Works by Johannes Brahms, Clara Schumann, and more.",
         image: "./img/concerts-img/event-img-010.png",
     },
     {
@@ -102,3 +103,55 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-009.jpg"
     },
 ];
+
+const upcomingConcertsHTML = document.querySelector('.upcoming-concerts');
+const pastConcertsHTML = document.querySelector('.past-concerts');
+
+window.addEventListener('DOMContentLoaded', function() {
+    let upcomingEvents = upcomingConcerts.map(function(event) {
+
+    return `<div class="event-wrapper">
+    <div class="event">
+        <h2 class="event-title">${event.title}</h2>
+            <div class="logistics">
+                <p class="event-date">${event.date}</p>
+                <p class="event-location">${event.location}</p>
+            </div>
+            
+            <p class="event-description">${event.description}</p>
+    </div>
+    
+    <img src="${event.image}" loading="lazy" alt="Ryan Soeyadi Headshot">
+</div>
+<hr>`
+    });
+
+    upcomingEvents = upcomingEvents.join("");
+    upcomingConcertsHTML.innerHTML = upcomingEvents;
+
+});
+
+window.addEventListener('DOMContentLoaded', function() {
+    let finishedEvents = pastConcerts.map(function(event) {
+
+    return `<div class="event-wrapper">
+    <div class="event">
+        <h2 class="event-title">${event.title}</h2>
+            <div class="logistics">
+                <p class="event-date">${event.date}</p>
+                <p class="event-location">${event.location}</p>
+            </div>
+            
+            <p class="event-description">${event.description}</p>
+    </div>
+    
+    <img src="${event.image}" loading="lazy" alt="Ryan Soeyadi Headshot">
+</div>
+<hr>`
+    });
+
+   
+    finishedEvents = finishedEvents.join("");
+    pastConcertsHTML.innerHTML = finishedEvents;
+
+});
