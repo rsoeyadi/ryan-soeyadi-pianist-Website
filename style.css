@@ -295,7 +295,7 @@ p {
 
 .nav-bar li {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   margin: 12px 0;
   font-size: 1.5vw;
 }
