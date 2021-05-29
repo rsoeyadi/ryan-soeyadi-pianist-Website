@@ -4,7 +4,7 @@ const upcomingConcerts = [
         title: "Rising Stars - Texas State International Piano Festival",
         date: "June 8, 2021, 4:30 PM EST",
         location: "Online",
-        link: "https://www.musae.me/musicforhumanity/experiences/975/music-for?fbclid=IwAR0mXE-QBJRGA-HBZnIAFZc5Gp0mXBSZDO7vPctMQe1PadqmHQDqh8WugfM",
+        link: "https://tsipf.com/event/ryan-soeyadi-2021/?instance_id=190",
         description: "I will be exploring the music of Nikolai Medtner through two piano sonatas, Op. 30 (his so-called \"War\" sonata) and the \"Minacciosa\" (which Medtner himself called his ‘most contemporary composition’) and a few of his smaller works titled \"skazki\", or tales in Russian. Additional smaller works by Rachmaninoff, one of his closest friends and admirers.",
         image: "./img/concerts-img/event-img-011.jpg",
     },
@@ -26,7 +26,7 @@ const pastConcerts = [
         title: "The Juilliard School - B.M. Graduation Recital",
         date: "January 12, 2020, 5:00 PM EST",
         location: "New York, NY",
-        link: "",
+        link: null,
         description: "As partial fulfillment for the requirements of the Bachelor of Music Degree, I will be giving a solo recital featuring works by Bach, Beethoven, Chopin, R.A. Alejandro, and Medtner.",
         image: "img/concerts-img/event-img-001.jpg"
     },
@@ -80,7 +80,7 @@ const pastConcerts = [
         title: "Solo Recital: Young Masters Recital Series at Valley Cottage Library",
         date: "Apr 26, 2020, 3:00 PM EST",
         location: "Valley Cottage, NY",
-        link: "https://www.groupmuse.com/events/10647-piano-gems-with-ryan-soeyadi",
+        link: null,
         description: "Works by Mozart, Chopin, Medtner, and more. Presented by the Young Masters Recital Series.",
         image: "./img/concerts-img/event-img-007.jpg"
     },
@@ -98,7 +98,7 @@ const pastConcerts = [
         title: "Rachmaninoff, Kreisler, and more (House Concert)",
         date: "Mar 11, 2020, 6:30 PM – 8:30 PM EST",
         location: "New York, NY",
-        link: "https://www.groupmuse.com/events/10647-piano-gems-with-ryan-soeyadi",
+        link: null,
         description: "Come enjoy a house recital on a Wednesday evening! Works by Rachmaninoff, Kreisler, and more, played by cellist Sebastian Stöger and Ryan Soeyadi.",
         image: "./img/concerts-img/event-img-009.jpg"
     },
@@ -110,7 +110,9 @@ const pastConcertsHTML = document.querySelector('.past-concerts');
 window.addEventListener('DOMContentLoaded', function() {
     let upcomingEvents = upcomingConcerts.map(function(event) {
 
-    return `<div class="event-wrapper">
+    if (event.link == null) {
+       
+        return `<div class="event-wrapper">
     <div class="event">
         <h2 class="event-title">${event.title}</h2>
             <div class="logistics">
@@ -124,6 +126,22 @@ window.addEventListener('DOMContentLoaded', function() {
     <img src="${event.image}" loading="lazy" alt="Ryan Soeyadi Headshot">
 </div>
 <hr>`
+    } else {
+    return `<div class="event-wrapper">
+    <div class="event">
+        <h2 class="event-title">${event.title}</h2>
+            <div class="logistics">
+                <p class="event-date">${event.date}</p>
+                <p class="event-location">${event.location}</p>
+                <div class="link"><a href="${event.link}" target="_blank">View Details</a></div>
+            </div>
+            
+            <p class="event-description">${event.description}</p>
+    </div>
+    
+    <img src="${event.image}" loading="lazy" alt="Ryan Soeyadi Headshot">
+</div>
+<hr>` }
     });
 
     upcomingEvents = upcomingEvents.join("");
@@ -134,12 +152,30 @@ window.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('DOMContentLoaded', function() {
     let finishedEvents = pastConcerts.map(function(event) {
 
+        if (event.link == null) {
+       
+            return `<div class="event-wrapper">
+        <div class="event">
+            <h2 class="event-title">${event.title}</h2>
+                <div class="logistics">
+                    <p class="event-date">${event.date}</p>
+                    <p class="event-location">${event.location}</p>
+                </div>
+                
+                <p class="event-description">${event.description}</p>
+        </div>
+        
+        <img src="${event.image}" loading="lazy" alt="Ryan Soeyadi Headshot">
+    </div>
+    <hr>`
+        } else {
     return `<div class="event-wrapper">
     <div class="event">
         <h2 class="event-title">${event.title}</h2>
             <div class="logistics">
                 <p class="event-date">${event.date}</p>
                 <p class="event-location">${event.location}</p>
+                <div class="link"><a href="${event.link}" target="_blank">View Details</a></div>
             </div>
             
             <p class="event-description">${event.description}</p>
@@ -147,7 +183,7 @@ window.addEventListener('DOMContentLoaded', function() {
     
     <img src="${event.image}" loading="lazy" alt="Ryan Soeyadi Headshot">
 </div>
-<hr>`
+<hr>`}
     });
 
    
