@@ -120,7 +120,7 @@ a:visited {
 .event a {
     z-index: 2;
     font-size: 13px;
-    color: blue;
+
 }
 
 ul {
@@ -196,17 +196,40 @@ p {
     margin-top: 1.5em;
 }
 
-.downloads {
-    color: blue;
+
+
+.link, .downloads, .purchases, .purchases a{
+    font-size: 17px;
+    color: rgb(59, 59, 59);
+    transition: all 0.5s linear;
+    position: relative;
+  }
+  .link:before, .downloads:before, .purchases:before {
+    content: "";
+    display: block;
+    height: 2.5px;
+    background-color: #474747;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform-origin: center; 
+    transform: scale(0);
+    transition: 0.4s linear;
+
+  }
+
+  .downloads:before, .purchases:before {
+    width: 100%;
 }
 
-.downloads:visited {
-    color: blue;
-}
+    .link:before {
+        width: 75px;
+    }
+  
+ .link:hover:before, .downloads:hover:before, .purchases:hover:before {
+    transform: scale(1);
+  }
 
-.downloads:hover, .purchases:hover {
-    text-decoration: underline;
-}
 #gallery {
     display: grid;
     grid-gap: 10px;
