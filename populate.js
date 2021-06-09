@@ -9,7 +9,7 @@ const upcomingConcerts = [
         image: "./img/concerts-img/event-img-012.jpg",
     },
     {
-        id: 1,
+        id: 2,
         title: "Manchester Music Festival - Brahms' Piano Quintet",
         date: "July 18, 2021, 5:00 PM EST",
         location: "Online",
@@ -18,7 +18,7 @@ const upcomingConcerts = [
         image: "./img/concerts-img/event-img-012.jpg",
     },
     {
-        id: 1,
+        id: 3,
         title: "Manchester Music Festival - Beethoven's \"Ghost\" Trio",
         date: "July 25, 2021, 5:00 PM EST",
         location: "Online",
@@ -27,11 +27,11 @@ const upcomingConcerts = [
         image: "./img/concerts-img/event-img-012.jpg",
     },
     {
-        id: 1,
+        id: 4,
         title: "Manchester Music Festival - Medtner's Piano Quintet",
         date: "August 1, 2021, 5:00 PM EST",
         location: "Online",
-        link: "https://www.mmfvt.org/mmfevents/2021/7/25/youngartists",
+        link: "https://www.mmfvt.org/mmfevents/2021/8/1/youngartists",
         description: "A chamber concert as part of the Manchester Music Festival consisting of works by Brahms, Dohnányi, Mozart, and Medtner. Tickets can be purchased to view through the MMF Digital Concert Hall.",
         image: "./img/concerts-img/event-img-012.jpg",
     },
