@@ -1,6 +1,45 @@
 const upcomingConcerts = [
     {
         id: 1,
+        title: "Manchester Music Festival - Schumann's Piano Quartet",
+        date: "July 11, 2021, 5:00 PM EST",
+        location: "Online",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/11/youngartistsmatinee",
+        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Dvořak, Mendelssohn, and Schumann. Tickets can be purchased to view through the MMF Digital Concert Hall.",
+        image: "./img/concerts-img/event-img-012.jpg",
+    },
+    {
+        id: 1,
+        title: "Manchester Music Festival - Brahms' Piano Quintet",
+        date: "July 18, 2021, 5:00 PM EST",
+        location: "Online",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/18/youngartistsmatinee",
+        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beach, Boulanger, and Brahms. Tickets can be purchased to view through the MMF Digital Concert Hall.",
+        image: "./img/concerts-img/event-img-012.jpg",
+    },
+    {
+        id: 1,
+        title: "Manchester Music Festival - Beethoven's \"Ghost\" Trio",
+        date: "July 25, 2021, 5:00 PM EST",
+        location: "Online",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/25/youngartists",
+        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beethoven, Bernstein, and Svendsen. Tickets can be purchased to view through the MMF Digital Concert Hall.",
+        image: "./img/concerts-img/event-img-012.jpg",
+    },
+    {
+        id: 1,
+        title: "Manchester Music Festival - Medtner's Piano Quintet",
+        date: "August 1, 2021, 5:00 PM EST",
+        location: "Online",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/25/youngartists",
+        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Brahms, Dohnányi, Mozart, and Medtner. Tickets can be purchased to view through the MMF Digital Concert Hall.",
+        image: "./img/concerts-img/event-img-012.jpg",
+    },
+]
+
+const pastConcerts = [
+    {
+        id: 1,
         title: "Rising Stars - Texas State International Piano Festival",
         date: "June 8, 2021, 4:30 PM EST",
         location: "Online",
@@ -8,10 +47,6 @@ const upcomingConcerts = [
         description: "I will be exploring the music of Nikolai Medtner through two piano sonatas, Op. 30 (his so-called \"War\" sonata) and the \"Minacciosa\" (which Medtner himself called his ‘most contemporary composition’) and a few of his smaller works titled \"skazki\", or tales in Russian. Additional smaller works by Rachmaninoff, one of his closest friends and admirers.",
         image: "./img/concerts-img/event-img-011.jpg",
     },
-    
-]
-
-const pastConcerts = [
     {
         id: 1,
         title: "Music for Humanity - Benefit Livestream",
