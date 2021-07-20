@@ -22,20 +22,20 @@ const upcomingConcerts = [
 const pastConcerts = [
     {
         id: 1,
-        title: "Manchester Music Festival - Schumann's Piano Quartet",
-        date: "July 11, 2021, 5:00 PM EST",
-        location: "Online",
-        link: "https://www.mmfvt.org/mmfevents/2021/7/11/youngartistsmatinee",
-        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Dvořak, Mendelssohn, and Schumann. Tickets can be purchased to view through the MMF Digital Concert Hall.",
-        image: "./img/concerts-img/event-img-012.jpg",
-    },
-    {
-        id: 2,
         title: "Manchester Music Festival - Brahms' Piano Quintet",
         date: "July 18, 2021, 5:00 PM EST",
         location: "Online",
         link: "https://www.mmfvt.org/mmfevents/2021/7/18/youngartistsmatinee",
         description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beach, Boulanger, and Brahms. Tickets can be purchased to view through the MMF Digital Concert Hall.",
+        image: "./img/concerts-img/event-img-012.jpg",
+    },
+    {
+        id: 2,
+        title: "Manchester Music Festival - Schumann's Piano Quartet",
+        date: "July 11, 2021, 5:00 PM EST",
+        location: "Online",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/11/youngartistsmatinee",
+        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Dvořak, Mendelssohn, and Schumann. Tickets can be purchased to view through the MMF Digital Concert Hall.",
         image: "./img/concerts-img/event-img-012.jpg",
     },
     {
