@@ -1,23 +1,5 @@
 const upcomingConcerts = [
     {
-        id: 1,
-        title: "Manchester Music Festival - Schumann's Piano Quartet",
-        date: "July 11, 2021, 5:00 PM EST",
-        location: "Online",
-        link: "https://www.mmfvt.org/mmfevents/2021/7/11/youngartistsmatinee",
-        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Dvořak, Mendelssohn, and Schumann. Tickets can be purchased to view through the MMF Digital Concert Hall.",
-        image: "./img/concerts-img/event-img-012.jpg",
-    },
-    {
-        id: 2,
-        title: "Manchester Music Festival - Brahms' Piano Quintet",
-        date: "July 18, 2021, 5:00 PM EST",
-        location: "Online",
-        link: "https://www.mmfvt.org/mmfevents/2021/7/18/youngartistsmatinee",
-        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beach, Boulanger, and Brahms. Tickets can be purchased to view through the MMF Digital Concert Hall.",
-        image: "./img/concerts-img/event-img-012.jpg",
-    },
-    {
         id: 3,
         title: "Manchester Music Festival - Beethoven's \"Ghost\" Trio",
         date: "July 25, 2021, 5:00 PM EST",
@@ -40,6 +22,24 @@ const upcomingConcerts = [
 const pastConcerts = [
     {
         id: 1,
+        title: "Manchester Music Festival - Schumann's Piano Quartet",
+        date: "July 11, 2021, 5:00 PM EST",
+        location: "Online",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/11/youngartistsmatinee",
+        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Dvořak, Mendelssohn, and Schumann. Tickets can be purchased to view through the MMF Digital Concert Hall.",
+        image: "./img/concerts-img/event-img-012.jpg",
+    },
+    {
+        id: 2,
+        title: "Manchester Music Festival - Brahms' Piano Quintet",
+        date: "July 18, 2021, 5:00 PM EST",
+        location: "Online",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/18/youngartistsmatinee",
+        description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beach, Boulanger, and Brahms. Tickets can be purchased to view through the MMF Digital Concert Hall.",
+        image: "./img/concerts-img/event-img-012.jpg",
+    },
+    {
+        id: 3,
         title: "Rising Stars - Texas State International Piano Festival",
         date: "June 8, 2021, 4:30 PM EST",
         location: "Online",
@@ -48,7 +48,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-011.jpg",
     },
     {
-        id: 1,
+        id: 4,
         title: "Music for Humanity - Benefit Livestream",
         date: "April 18, 2021, 7:00 PM EST",
         location: "Online",
@@ -57,7 +57,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-010.png",
     },
     {
-        id: 2,
+        id: 5,
         title: "The Juilliard School - B.M. Graduation Recital",
         date: "January 12, 2020, 5:00 PM EST",
         location: "New York, NY",
@@ -66,7 +66,7 @@ const pastConcerts = [
         image: "img/concerts-img/event-img-001.jpg"
     },
     {
-        id: 3,
+        id: 6,
         title: "Bach and Rachmaninoff: The Intellectual and The Romantic",
         date: "Dec 12, 2020, 6:00 PM EST",
         location: "New York, NY",
@@ -75,7 +75,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-002.jpg"
     },
     {
-        id: 4,
+        id: 7,
         title: "Piano Evenings with David Dubal",
         date: "Dec 08, 2020, 7:00 PM EST",
         location: "New York, NY",
@@ -84,7 +84,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-003.jpg"
     },
     {
-        id: 5,
+        id: 8,
         title: "The Troubled Romantic",
         date: "Oct 03, 2020, 8:00 PM EST",
         location: "New York, NY",
@@ -93,7 +93,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-004.jpg"
     },
     {
-        id: 6,
+        id: 9,
         title: "Another Night of Piano Gems with Ryan Soeyadi",
         date: "Aug 12, 2020, 7:00 PM",
         location: "New York, NY",
@@ -102,7 +102,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-005.jpg"
     },
     {
-        id: 7,
+        id: 10,
         title: "Piano Gems with Ryan Soeyadi",
         date: "May 27, 2020, 8:00 PM EST",
         location: "New York, NY",
@@ -111,7 +111,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-006.jpg"
     },
     {
-        id: 8,
+        id: 11,
         title: "Solo Recital: Young Masters Recital Series at Valley Cottage Library",
         date: "Apr 26, 2020, 3:00 PM EST",
         location: "Valley Cottage, NY",
@@ -120,7 +120,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-007.jpg"
     },
     {
-        id: 9,
+        id: 12,
         title: "Solo Recital: Downtown Music at Grace",
         date: "Apr 22, 2020, 12:00 PM EST",
         location: "New York, NY",
@@ -129,7 +129,7 @@ const pastConcerts = [
         image: "./img/concerts-img/event-img-008.jpg"
     },
     {
-        id: 10,
+        id: 13,
         title: "Rachmaninoff, Kreisler, and more (House Concert)",
         date: "Mar 11, 2020, 6:30 PM – 8:30 PM EST",
         location: "New York, NY",
