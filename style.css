@@ -445,6 +445,11 @@ form button {
         font-size: 1.2em;
     }
 
+    .title-heading a:hover {
+        color: rgb(112, 112, 112);
+        transition: ease 0.4s;
+    }
+
     .main-container {
         display: grid !important;
 
@@ -469,6 +474,12 @@ form button {
         font-size: 1.2em;
         margin: 0.6em;
     }
+
+    #desktop-links li a:hover {
+        color: rgb(112, 112, 112);
+        transition: ease 0.4s;
+    }
+
 
     #mobile-links {
         display: none;
