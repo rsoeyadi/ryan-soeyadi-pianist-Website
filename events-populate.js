@@ -173,7 +173,8 @@ window.addEventListener('DOMContentLoaded', function () {
     
             <img src="${event.image}" alt="${event.title}" loading="lazy">
             <div class="event-info">
-            
+            <div class="info-container">
+
                 <h2 class="event-title">${event.title}</h2>
             
                 <div class="date-time-container">
@@ -186,7 +187,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 <p class="map" target="__blank"><a
                         href="${event.googleMapsLink}">(MAP)</a>
                 </p>
-            
+            </div
             </div>
             </div>
             </div>
@@ -197,7 +198,8 @@ window.addEventListener('DOMContentLoaded', function () {
     
         <img src="${event.image}" alt="${event.title}" loading="lazy">
         <div class="event-info">
-        
+        <div class="info-container">
+
             <h2 class="event-title">${event.title}</h2>
         
             <div class="date-time-container">
@@ -212,6 +214,7 @@ window.addEventListener('DOMContentLoaded', function () {
             <div class="view-details-box">
                 <p><a href="${event.link}" target="__blank">View Details</a></p>
             </div>
+            </div>
         </div>
         </div>
         </div>
@@ -223,7 +226,8 @@ window.addEventListener('DOMContentLoaded', function () {
         
             <img src="${event.image}" alt="${event.title}" loading="lazy">
             <div class="event-info">
-            
+            <div class="info-container">
+
                 <h2 class="event-title">${event.title}</h2>
             
                 <div class="date-time-container">
@@ -239,6 +243,7 @@ window.addEventListener('DOMContentLoaded', function () {
             
                 <div class="view-details-box">
                     <p><a href="${event.link}">View Details</a></p>
+                </div>
                 </div>
             </div>
             </div>
@@ -257,7 +262,8 @@ window.addEventListener('DOMContentLoaded', function () {
     
             <img src="${event.image}" alt="${event.title}" loading="lazy">
             <div class="event-info">
-            
+            <div class="info-container">
+
                 <h2 class="event-title">${event.title}</h2>
             
                 <div class="date-time-container">
@@ -270,7 +276,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 <p class="map" target="__blank"><a
                         href="${event.googleMapsLink}">(MAP)</a>
                 </p>
-            
+            </div>
             </div>
             </div>
             </div>
@@ -281,7 +287,8 @@ window.addEventListener('DOMContentLoaded', function () {
     
         <img src="${event.image}" alt="Manchester Music Festival Logo">
         <div class="event-info">
-        
+        <div class="info-container">
+
             <h2 class="event-title">${event.title}</h2>
         
             <div class="date-time-container">
@@ -296,6 +303,7 @@ window.addEventListener('DOMContentLoaded', function () {
             <div class="view-details-box">
                 <p><a href="${event.link}" target="__blank">View Details</a></p>
             </div>
+            </div>
         </div>
         </div>
         </div>
@@ -307,7 +315,7 @@ window.addEventListener('DOMContentLoaded', function () {
         
             <img src="${event.image}" alt="${event.title}" loading="lazy">
             <div class="event-info">
-            
+            <div class="info-container">
                 <h2 class="event-title">${event.title}</h2>
             
                 <div class="date-time-container">
@@ -323,6 +331,7 @@ window.addEventListener('DOMContentLoaded', function () {
             
                 <div class="view-details-box">
                     <p><a href="${event.link}" target="__blank">View Details</a></p>
+                </div>
                 </div>
             </div>
             </div>
