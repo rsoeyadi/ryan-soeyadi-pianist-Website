@@ -506,8 +506,6 @@ form button {
 
     /* events page */
 
-
-
     .event-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -530,18 +528,14 @@ form button {
         grid-column-start: 2;
     }
 
-
     /* events page */
 
     /* collaborative page */
-
-
 
     .collaborative-container {
         margin-left: 2em;
         margin-right: 5em;
     }
-
 
     /* collaborative page */
 
@@ -562,8 +556,8 @@ form button {
         grid-column-start: 1;
 
     }
-    /* collaborative AND arrangements page */
 
+    /* collaborative AND arrangements page */
 
 }
 
@@ -585,7 +579,6 @@ form button {
         margin-left: 2em;
         margin-right: 5em;
     }
-
 
     /* collaborative page */
 
