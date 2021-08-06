@@ -567,18 +567,19 @@ form button {
 
     .intro-grid {
         display: grid;
-        grid-template-columns: 2fr 0.3fr;
+        grid-template-columns: 2fr 0.5fr;
         grid-auto-flow: column;
         grid-column-gap: 3em;
     }
 
     .grid-1 {
         grid-column-start: 2;
+        
     }
 
     .grid-2 {
         grid-column-start: 1;
-
+        max-width: 1200px;
     }
 
     /* collaborative AND arrangements page */
