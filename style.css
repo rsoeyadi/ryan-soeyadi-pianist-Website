@@ -407,14 +407,14 @@ footer {
 .form-control {
     border: none;
     border-bottom: 1px solid #d9d9d9;
-    padding-left: 0;
+    padding-left: 5px;
     padding-right: 0;
     border-radius: 0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: rgb(246, 246, 246);
     background-clip: padding-box;
     display: block;
     width: 100%;
@@ -425,7 +425,13 @@ footer {
 input,
 textarea {
     line-height: 0px;
-    max-width: 1200px;
+    max-width: 1100px;
+
+}
+
+input:active, textarea:active, input:focus, textarea:focus {
+    border-color: rgb(0, 0, 0);
+    transition: ease 1.2s;
 }
 
 input:focus,
