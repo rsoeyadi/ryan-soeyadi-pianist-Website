@@ -9,7 +9,7 @@ const videos = [{
         title: "Rachmaninoff - Cello Sonata in G minor, Op. 19",
         performer1: "Sebastian Stöger, cello",
         performer2: "Ryan Soeyadi, piano",
-        description: "Live in Paul Hall at The Juilliard School on November 13th, 2019 at 8pm.",
+        description: "Live at Paul Hall at The Juilliard School on November 13th, 2019 at 8pm.",
         youtubeLink: "https://www.youtube.com/embed/O3t6zwLjesc"
     },
     {
@@ -24,7 +24,7 @@ const videos = [{
         title: "Schnyder - subZERO Concerto for Bass Trombone",
         performer1: "Filipe Pereira, bass trombone (bass trombonist of the Buffalo Philharmonic)",
         performer2: "Ryan Soeyadi, piano",
-        description: "Live in Morse Hall at The Juilliard School on November 19th, 2018.",
+        description: "Live at Morse Hall at The Juilliard School on November 19th, 2018.",
         youtubeLink: "https://www.youtube.com/embed/DEAJ9V1w4vs"
     },
 ]
