@@ -513,8 +513,12 @@ form button {
     #about-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 1em;
+        grid-column-gap: 1.7em;
 
+    }
+
+    #about-container h1 {
+        margin-bottom: 0.4em;
     }
 
     #about-container p {
