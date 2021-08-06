@@ -26,9 +26,8 @@ hr {
     border: none;
 }
 
-a:link,
+
 a:visited {
-    text-decoration: none;
     color: black;
 }
 
@@ -53,11 +52,21 @@ ul {
 .title-heading h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 2em;
+    
+}
+
+.title-heading a {
+    text-decoration: none;
+
 }
 
 nav {
     overflow: hidden;
     display: none;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 #desktop-links {
@@ -358,6 +367,15 @@ footer {
     color: #707070;
 }
 
+.go-to {
+    color: blue;
+}
+
+.go-to:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
 /* collaborative page */
 
 
@@ -371,8 +389,6 @@ footer {
     color: blue;
     text-decoration: underline;
 }
-
-.mn-intro-p {}
 
 /* arrangements page */
 
