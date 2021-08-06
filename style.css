@@ -27,6 +27,10 @@ hr {
 }
 
 
+a {
+    color: black;
+}
+
 a:visited {
     color: black;
 }
