@@ -18,6 +18,13 @@ const videos = [{
         composer2: "",
         youtubeLink: "https://www.youtube.com/embed/wjKu-MFBiB0",
         storeLink: "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0218183"
+    },
+    {
+        title: "Always with Me (Studio Ghibli's Spirited Away)",
+        composer1: "Youmi Kimura",
+        composer2: "",
+        youtubeLink: "https://www.youtube.com/embed/Sx0GUlatUbY",
+        storeLink: "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0212660"
     }
 ]
 
