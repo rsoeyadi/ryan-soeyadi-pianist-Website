@@ -344,6 +344,10 @@ footer {
     cursor: pointer;
 }
 
+.lb-details span {
+    opacity: 1;
+}
+
 
 /* iFrames */
 
