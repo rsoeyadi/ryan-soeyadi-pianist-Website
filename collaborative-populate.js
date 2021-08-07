@@ -51,4 +51,3 @@ window.addEventListener('DOMContentLoaded', function () {
     videoSelection = videoSelection.join("");
     videosHTML.innerHTML = videoSelection;
 });
-

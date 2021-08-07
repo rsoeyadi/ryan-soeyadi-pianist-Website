@@ -56,7 +56,7 @@ ul {
 .title-heading h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 2em;
-    
+
 }
 
 .title-heading a {
@@ -371,7 +371,7 @@ footer {
 
 .video-container {
     margin-top: 1em;
-    margin-bottom: 3.2em;   
+    margin-bottom: 3.2em;
 }
 
 /* iFrames */
@@ -453,7 +453,10 @@ textarea {
 
 }
 
-input:active, textarea:active, input:focus, textarea:focus {
+input:active,
+textarea:active,
+input:focus,
+textarea:focus {
     border-color: rgb(0, 0, 0);
     transition: ease 1.3s;
 }
@@ -521,7 +524,8 @@ form button {
         justify-content: center;
     }
 
-    #desktop-links::before, #desktop-links::after {
+    #desktop-links::before,
+    #desktop-links::after {
         background-color: #000000;
         content: "";
         display: inline-block;
@@ -531,6 +535,7 @@ form button {
         vertical-align: middle;
         width: 10%;
     }
+
     #desktop-links li a {
         font-size: 1.2em;
         margin: 0.6em;
@@ -615,7 +620,7 @@ form button {
 
     .grid-1 {
         grid-column-start: 2;
-        
+
     }
 
     .grid-2 {
@@ -629,7 +634,8 @@ form button {
 
 @media (min-width: 1025px) {
 
-    #desktop-links::before, #desktop-links::after {
+    #desktop-links::before,
+    #desktop-links::after {
         width: 12%;
     }
 
