@@ -521,6 +521,16 @@ form button {
         justify-content: center;
     }
 
+    #desktop-links::before, #desktop-links::after {
+        background-color: #000000;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        bottom: .1em;
+        position: relative;
+        vertical-align: middle;
+        width: 10%;
+    }
     #desktop-links li a {
         font-size: 1.2em;
         margin: 0.6em;
@@ -618,6 +628,11 @@ form button {
 }
 
 @media (min-width: 1025px) {
+
+    #desktop-links::before, #desktop-links::after {
+        width: 12%;
+    }
+
     #desktop-links li a {
         font-size: 1.4em;
         margin: 0.8em;
