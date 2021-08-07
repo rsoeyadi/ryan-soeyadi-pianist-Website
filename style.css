@@ -261,7 +261,7 @@ footer {
     z-index: 3;
 }
 
-.fun-svgs {}
+
 
 /* spacing */
 
@@ -490,6 +490,12 @@ form button {
 
 /* contact page */
 
+/* current page */
+#about, #events, #collaborative, #arrangements, #gallery, #contact {
+    background-color:#dcdcdc;
+    padding: 5px;
+}
+/* current page */
 
 /* media queries */
 @media (min-width: 768px) {
