@@ -72,6 +72,10 @@ span.fade {
     opacity: 1;
 }
 
+.hamburger span {
+    opacity: 1;
+}
+
 nav {
     overflow: hidden;
     display: none;
