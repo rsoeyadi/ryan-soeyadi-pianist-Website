@@ -31,7 +31,6 @@ const videos = [{
 
 const videosHTML = document.querySelector('#collaborative-videos');
 
-
 window.addEventListener('DOMContentLoaded', function () {
     let videoSelection = videos.map(function (video) {
 
@@ -52,3 +51,4 @@ window.addEventListener('DOMContentLoaded', function () {
     videoSelection = videoSelection.join("");
     videosHTML.innerHTML = videoSelection;
 });
+

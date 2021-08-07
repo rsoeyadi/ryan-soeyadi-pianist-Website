@@ -61,7 +61,15 @@ ul {
 
 .title-heading a {
     text-decoration: none;
+}
 
+span {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+span.fade {
+    opacity: 1;
 }
 
 nav {
