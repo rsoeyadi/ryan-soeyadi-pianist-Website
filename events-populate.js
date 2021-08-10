@@ -28,7 +28,7 @@ const pastEvents = [{
         location: "Online",
         address: "930 Southern Vermont Arts Center Drive, Manchester, VT 05254",
         googleMapsLink: "https://goo.gl/maps/ifoutwNwmKyHXCBz9",
-        link: "https://www.mmfvt.org/mmfevents/2021/7/18/youngartistsmatinee",
+        link: "https://www.mmfvt.org/mmfevents/2021/7/18/youngartists",
         description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beach, Boulanger, and Brahms. Tickets can be purchased to view through the MMF Digital Concert Hall.",
         image: "./img/event-img/mmf.png",
         onlineOnly: false
