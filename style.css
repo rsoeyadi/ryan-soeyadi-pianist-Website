@@ -676,15 +676,22 @@ form button {
 
 @media (min-width: 1500px) {
 
+    /* collaborative AND arrangements page */
+
     .intro-grid {
         grid-template-columns: 5fr 0.1fr 1fr;
     }
-    
+
+    .collaborative-container hr, .arrangements-container hr {
+        margin: 2.2em 0;
+    }
     .video-container {
         display: grid;
         grid-template-columns: 1.5fr 1fr 0.5fr;
         grid-gap: 0.5em;
     }
+
+    /* collaborative AND arrangements page */
 
 }
 
