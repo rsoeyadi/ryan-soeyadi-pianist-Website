@@ -674,4 +674,13 @@ form button {
 
 }
 
+@media (min-width: 1500px) {
+    .video-container {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 0.5fr;
+        grid-gap: 0.5em;
+    }
+
+}
+
 /* media queries */
