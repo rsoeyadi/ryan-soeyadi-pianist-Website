@@ -675,6 +675,11 @@ form button {
 }
 
 @media (min-width: 1500px) {
+
+    .intro-grid {
+        grid-template-columns: 5fr 0.1fr 1fr;
+    }
+    
     .video-container {
         display: grid;
         grid-template-columns: 1.5fr 1fr 0.5fr;
