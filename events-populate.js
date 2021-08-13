@@ -9,7 +9,9 @@ const pastEvents = [{
         link: "https://www.mmfvt.org/mmfevents/2021/8/1/youngartists",
         description: "A chamber concert as part of the Manchester Music Festival consisting of works by Brahms, Dohnányi, Mozart, and Medtner. Tickets can be purchased to view through the MMF Digital Concert Hall.",
         image: "./img/event-img/mmf.png",
-        onlineOnly: false
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/wnOTrmAOr0E?t=7473'
     },
     {
         title: "Manchester Music Festival - Beethoven's \"Ghost\" Trio",
@@ -20,7 +22,9 @@ const pastEvents = [{
         link: "https://www.mmfvt.org/mmfevents/2021/7/25/youngartists",
         description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beethoven, Bernstein, and Svendsen. Tickets can be purchased to view through the MMF Digital Concert Hall.",
         image: "./img/event-img/mmf.png",
-        onlineOnly: false
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/MLQ29g6qDQ0?t=1314'
     },
     {
         title: "Manchester Music Festival - Brahms' Piano Quintet",
@@ -31,7 +35,9 @@ const pastEvents = [{
         link: "https://www.mmfvt.org/mmfevents/2021/7/18/youngartists",
         description: "A chamber concert as part of the Manchester Music Festival consisting of works by Beach, Boulanger, and Brahms. Tickets can be purchased to view through the MMF Digital Concert Hall.",
         image: "./img/event-img/mmf.png",
-        onlineOnly: false
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/hzHoBXrpods?t=3891'
     },
     {
         title: "Manchester Music Festival - Schumann's Piano Quartet",
@@ -42,7 +48,9 @@ const pastEvents = [{
         link: "https://www.mmfvt.org/mmfevents/2021/7/11/youngartistsmatinee",
         description: "A chamber concert as part of the Manchester Music Festival consisting of works by Dvořak, Mendelssohn, and Schumann. Tickets can be purchased to view through the MMF Digital Concert Hall.",
         image: "./img/event-img/mmf.png",
-        onlineOnly: false
+        onlineOnly: true,
+        recordingExists: false,
+        recordingLink: ''
     },
     {
         title: "Rising Stars - Texas State International Piano Festival",
@@ -52,7 +60,9 @@ const pastEvents = [{
         link: "https://tsipf.com/event/ryan-soeyadi-2021/?instance_id=190",
         description: "I will be exploring the music of Nikolai Medtner through two piano sonatas, Op. 30 (his so-called \"War\" sonata) and the \"Minacciosa\" (which Medtner himself called his ‘most contemporary composition’) and a few of his smaller works titled \"skazki\", or tales in Russian. Additional smaller works by Rachmaninoff, one of his closest friends and admirers.",
         image: "./img/event-img/medtner.jpg",
-        onlineOnly: true
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/GF16pHszXm4'
     },
     {
         title: "Music for Humanity - Benefit Livestream",
@@ -74,7 +84,9 @@ const pastEvents = [{
         link: null,
         description: "As partial fulfillment for the requirements of the Bachelor of Music Degree, I will be giving a solo recital featuring works by Bach, Beethoven, Chopin, R.A. Alejandro, and Medtner.",
         image: "./img/event-img/senior-recital.jpg",
-        onlineOnly: true
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: ''
     },
     {
         title: "Bach and Rachmaninoff: The Intellectual and The Romantic",
@@ -84,7 +96,9 @@ const pastEvents = [{
         link: "https://www.groupmuse.com/events/11162-bach-and-rachmaninoff-the-intellectual-and-the-romantic",
         description: "A Groupmuse livestream alongside pianist Siyumeng Wang, featuring works by Bach and Rachmaninoff. Additionally, there will be recitations of original translations of Russian poetry by Ulkar Aghayeva to enhance the listening experience of the Rachmaninoff.",
         image: "./img/event-img/ryan-siyumeng.jpg",
-        onlineOnly: true
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/ezTPb-PGbvg'
     },
     {
         title: "Piano Evenings with David Dubal",
@@ -104,7 +118,9 @@ const pastEvents = [{
         link: "https://www.groupmuse.com/events/10994-the-troubled-romantic",
         description: "A Groupmuse Livestream with fellow pianist Siyumeng Wang including works by Beethoven, Fauré, and Rachmaninoff.",
         image: "./img/event-img/ryan-siyumeng-2.jpg",
-        onlineOnly: true
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/FTh4oAY41q8'
     },
     {
         title: "Another Night of Piano Gems with Ryan Soeyadi",
@@ -114,7 +130,9 @@ const pastEvents = [{
         link: "https://www.groupmuse.com/events/10875-another-night-of-piano-gems-with-ryan-soeyadi",
         description: "A solo Groupmuse Livestream including works by R.A. Alejandro, Kapustin, Liszt, and more.",
         image: "./img/event-img/livestream.jpg",
-        onlineOnly: true
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/YJvJx8wZx-0'
     },
     {
         title: "Piano Gems with Ryan Soeyadi",
@@ -124,7 +142,9 @@ const pastEvents = [{
         link: "https://www.groupmuse.com/events/10647-piano-gems-with-ryan-soeyadi",
         description: "Groupmuse Livestream including works by Chopin, Debussy, Tchaikovsky, and more.",
         image: "./img/event-img/livestream2.jpg",
-        onlineOnly: true
+        onlineOnly: true,
+        recordingExists: true,
+        recordingLink: 'https://youtu.be/Opx5KuK6n4w'
     },
     {
         title: "Solo Recital: Young Masters Recital Series at Valley Cottage Library",
@@ -244,6 +264,8 @@ window.addEventListener('DOMContentLoaded', function () {
                 <div class="view-details-box">
                     <p><a href="${event.link}">View Details</a></p>
                 </div>
+                
+                
                 </div>
             </div>
             </div>
@@ -282,7 +304,7 @@ window.addEventListener('DOMContentLoaded', function () {
             </div>
             `
 
-        } else if (event.onlineOnly) {
+        } else if (event.onlineOnly && event.recordingExists) {
             return `<div class="event-container">
     
         <img src="${event.image}" alt="Manchester Music Festival Logo">
@@ -303,6 +325,10 @@ window.addEventListener('DOMContentLoaded', function () {
             <div class="view-details-box">
                 <p><a href="${event.link}" target="__blank">View Details</a></p>
             </div>
+            <div class="recording-box">
+                <p><a href="${event.recordingLink}" target="__blank">Watch Recording</a></p>
+            </div>
+            
             </div>
         </div>
         </div>
@@ -331,7 +357,10 @@ window.addEventListener('DOMContentLoaded', function () {
             
                 <div class="view-details-box">
                     <p><a href="${event.link}" target="__blank">View Details</a></p>
+                    
                 </div>
+
+                
                 </div>
             </div>
             </div>

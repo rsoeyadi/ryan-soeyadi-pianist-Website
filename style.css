@@ -301,6 +301,7 @@ footer {
     box-shadow: 0 8px 8px -4px rgb(132, 132, 132);
 }
 
+
 .event-address {
     color: #727272;
 }
@@ -310,7 +311,7 @@ footer {
     z-index: 2;
 }
 
-.view-details-box {
+.view-details-box, .recording-box {
     border: 2px solid black;
     display: inline-flex;
     padding: 8px;
@@ -321,6 +322,10 @@ footer {
 
 .view-details-box p a {
     color: blue;
+}
+
+.recording-box p a {
+color: red;
 }
 
 /* events page */
