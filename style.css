@@ -558,6 +558,8 @@ form button {
         font-size: 1.2em;
         margin: 0.6em;
         padding: 5px;
+        transition: ease 0.3s;
+
     }
 
     #desktop-links li a:hover {
